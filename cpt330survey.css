@@ -1,0 +1,55 @@
+/*
+Website survey/feedback!!!
+CSS page
+*/
+
+fieldset {
+	background-color: rgb(255,255,153);
+	border: 2px solid rgb(255,69,0);
+	float: left;
+	margin: 7px 0px 7px 2%;
+	width: 44%;
+}
+
+legend {
+	background-color: rgb(255,69,0);
+	color: rgba(255,255,255,0.97);
+	padding: 6px 2px;
+	text-indent: 8px;
+	width: 40%;
+}
+
+label {
+	float: left;
+	display: block;
+	clear: left;
+	font-size: 1em;
+	margin: 6px 4% 6px 5px;
+	width: 42%;
+}
+
+input {
+	display: block;
+	float: left;
+	font-size: 1em;
+	margin: 6px 0px;
+	width: 50%;
+}
+
+textarea {
+	display: block;
+	font-size: 1.2em;
+	width: 97%;
+	height: 100px;
+}
+
+#submit {
+	width: 75px;
+}
+
+#reset {
+	clear: left;
+	width: 75px;
+}
+
+

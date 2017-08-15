@@ -1,0 +1,121 @@
+﻿/*
+Website main style page
+CSS page
+*/
+
+
+body {
+	background-color: white;
+	font-family: Verdana, Geneva, sans-serif;
+	width: 1000px;
+} 
+
+nav ul {
+	line-height: 2.5em;
+	list-style-type: none;
+	padding-left: 0px;
+	text-indent: 10px;
+	width: 100%;
+	margin: auto;
+}
+
+nav a {
+	color: rgb(0,186,255);
+	text-decoration: none;
+	width: 32%;
+	text-align: center;
+	margin: 2px 2px 2px 2px;
+	float: left;
+	border-radius: 8px 8px 8px 8px;
+	background-color: rgb(255,69,0);
+}
+
+nav a:hover {
+	background-color: rgb(192,192,192); 
+	color: rgb(255,69,0);  
+
+}
+
+header hgroup {
+	text-align: center;	
+}
+
+header h2 {
+	background-color: rgb(192,192,192); 
+	font-size: 3em;
+	text-indent: 5px;
+	font-family: Courier-New;
+}
+
+aside {
+	text-align: center;
+	background-color: rgb(113,198,113); 
+	float: left;
+	width: 450px;
+	padding: 30px 10px 10px 10px;
+	border-style: inset;
+	margin: 0px 0px 0px 50px;
+	
+}
+
+aside p {
+	font-size: 14px;
+	font-style: italic;
+	text-align: center;
+	color: rgb(255,69,0); 
+}
+
+section article h2 {
+	background-color: rgb(255,69,0); 
+	color: rgba(255,255,255,0.7);
+	font-weight: normal;
+	letter-spacing: 0.7em;
+	text-indent: 1em;
+}
+
+article ul {
+	list-style-image: url(custombullet2.jpg);
+}
+
+footer address {
+	background-color: rgb(192,192,192);
+	color: rgb(255,69,0);
+	font-weight: normal;
+	font-variant: small-caps;
+	font-size: 0.9em;
+	line-height: 3em;
+	font-family: Palatino-Linotype, Book-Antiqua, Palatino, serif;
+	text-align: center;
+}
+
+section {
+	clear: left;
+	
+}
+
+aside img {
+	width: 400px;
+}
+
+article {
+	clear: left;
+	width: 75%;
+}
+
+#favemeals img {
+	width: 200px;
+}
+
+footer {
+	border-top: double;
+	display: block;
+	clear: both;
+}
+
+video {
+	height: 500px;
+	width: 300px;
+	padding: 2% 20% 2% 20%;
+}
+
+

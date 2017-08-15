@@ -1,0 +1,46 @@
+/*
+Table style schedule 
+CSS page
+*/
+
+
+table.schedule {
+	border: 15px inset rgb(255,69,0);
+	border-radius: 20px 20px 20px 20px;
+	font-family: Arial, Helvetica, Sans-serif;
+	font-size: 0.9em;
+	width: 100%;
+}
+
+table.schedule td, table.schedule th {
+	border: 1px solid gray;
+}
+
+table.schedule thead {
+	color: white;
+	background-color: rgba(255,69,0,0.77);
+}
+
+table.schedule thead tr {
+	height: 22px;
+}
+
+table.schedule col.firstcol {
+	background-color: rgba(113,198,113,0.77);
+	width: 9%;
+}
+
+table.schedule col.daycols {
+	width: 13%;
+}
+
+table.schedule td {
+	padding: 10px;
+}
+
+table.schedule caption {
+	text-align: right;
+}
+table.schedule td, table.schedule tr {
+	text-align: center;
+}

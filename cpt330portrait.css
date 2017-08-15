@@ -1,0 +1,56 @@
+/*
+Mobile portrait format 
+CSS page
+*/
+
+
+#sitefeedback, #visitorinfo, #REQ, #NAV, #VIDEO, #SCHEDULE, #PISA  {
+	display: none;
+}
+
+header h2 {
+	text-align: center;
+	text-decoration: none;
+	font-size: 30pt;
+}
+
+
+aside img {
+	display: block;
+    margin: auto;
+    width: 80%;
+	padding: 15px;
+	background-color: rgb(255,69,0);
+	border-radius: 20%;
+}
+
+aside p {
+	text-align: center;
+	font-size: 16pt;
+}
+
+article h2 {
+	text-align: center;
+	font-size: 24pt;
+}
+
+#favemeals a img {
+	display: block;
+	margin: auto;
+    width: 100%;
+}
+
+#favemeals h3 {
+	text-align: center;
+	font-size: 16pt;
+	font-weight: bold;
+}
+
+footer {
+	text-align: center;
+	font-weight: bold;
+	padding-top: 5px;
+	background-color: rgb(113,198,113);
+	width: 100%;
+	margin: auto;
+}

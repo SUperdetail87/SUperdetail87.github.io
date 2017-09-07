@@ -5,10 +5,16 @@ CSS page
 
 
 body {
-	background-color: white;
+	background-color: cyan;
 	font-family: Verdana, Geneva, sans-serif;
-	width: 1000px;
+	width: 100%;
 } 
+
+.capsule {
+	max-width: 75%;
+	margin: auto;
+	background-color: white;
+}
 
 nav ul {
 	line-height: 2.5em;
@@ -16,6 +22,11 @@ nav ul {
 	padding-left: 0px;
 	text-indent: 10px;
 	width: 100%;
+	margin: auto;
+}
+
+.fixer {
+	max-width: 1000px;
 	margin: auto;
 }
 
@@ -38,6 +49,10 @@ nav a:hover {
 
 header hgroup {
 	text-align: center;	
+}
+
+header h1 {
+	padding: 30px 10px 0px 5px;
 }
 
 header h2 {
@@ -117,5 +132,6 @@ video {
 	width: 300px;
 	padding: 2% 20% 2% 20%;
 }
+
 
 

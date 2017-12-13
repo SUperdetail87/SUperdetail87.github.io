@@ -140,15 +140,15 @@ video {
 
 #reset {
 	clear: both;
-	text-align: center;
+	align: center;
 }
 
 #submit {
 	clear: both;
-	text-align: center;
+	align: center;
 }
 
 #newsletter {
 	clear: both;
-	text-align: center;
+	align: center;
 }

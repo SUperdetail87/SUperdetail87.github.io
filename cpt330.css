@@ -138,3 +138,17 @@ video {
 	text-align: center;
 }
 
+#reset {
+	clear: both;
+	text-align: center;
+}
+
+#submit {
+	clear: both;
+	text-align: center;
+}
+
+#newsletter {
+	clear: both;
+	text-align: center;
+}

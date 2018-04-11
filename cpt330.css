@@ -54,7 +54,7 @@ header hgroup {
 header h1 { 
 	width: auto;
     	height: 400px;
-    	background-size: 100% 100%;	
+    	background-size: auto;	
 }
 
 header h2 {

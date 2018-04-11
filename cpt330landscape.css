@@ -4,7 +4,7 @@ CSS page
 */
 
 header h1 img {
-	width: 100%;
+	width: auto;
 	height: 90%;
 	border-radius: 8%;
 }

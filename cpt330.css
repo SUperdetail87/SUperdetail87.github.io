@@ -52,9 +52,9 @@ header hgroup {
 }
 
 header h1 { 
-	width: auto;
+	width: 100%;
     	height: 400px;
-    	background-size: auto;	
+    	background-size: contain;	
 }
 
 header h2 {

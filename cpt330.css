@@ -70,7 +70,7 @@ header h2 {
 
 aside {
 	display: block;
-	justify-content: center;
+	text-align: center;
 	align-items: center;
 	float: left;
 	background-color: rgb(113,198,113); 
@@ -84,7 +84,6 @@ aside p {
 	font-size: 14px;
 	font-style: italic;
 	text-align: center;
-	float: left;
 	color: rgb(255,69,0); 
 }
 

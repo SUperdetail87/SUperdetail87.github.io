@@ -69,9 +69,10 @@ header h2 {
 }
 
 aside {
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	background-color: rgb(113,198,113); 
-	float: left;
 	width: 450px;
 	padding: 30px 10px 10px 10px;
 	border-style: inset;

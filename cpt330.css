@@ -87,6 +87,12 @@ aside p {
 	color: rgb(255,69,0); 
 }
 
+aside img {
+	display: block;
+    	margin: 0px 0px 0px 50px;
+    	width: 40%;
+}
+
 section article h2 {
 	background-color: rgb(255,69,0); 
 	color: rgba(255,255,255,0.7);
@@ -115,11 +121,8 @@ section {
 	
 }
 
-aside img {
-	display: block;
-    	margin: 0px 0px 0px 50px;
-    	width: 40%;
-}
+
+
 
 article {
 	clear: left;

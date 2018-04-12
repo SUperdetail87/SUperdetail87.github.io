@@ -118,8 +118,8 @@ section {
 
 aside img {
 	display: block;
-    	margin: auto;
-    	width: 40%
+    	margin: 0px 0px 0px 50px;
+    	width: 40%;
 }
 
 article {

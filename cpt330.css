@@ -58,7 +58,7 @@ header h1 {
 header h1 img {
 	width: 100%;
 	height: auto;
-	position: avoid;
+	position: align;
 }
 
 header h2 {

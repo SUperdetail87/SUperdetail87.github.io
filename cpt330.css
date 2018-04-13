@@ -71,13 +71,10 @@ header h2 {
 aside {
 	display: block;
 	text-align: center;
-	align-items: center;
-	float: left;
 	background-color: rgb(113,198,113); 
-	height: 450px;
+	padding: 30px 10px 10px 10px;
 	border-style: inset;
-	margin: auto;
-	
+	margin: 0px 0px 0px 0px;
 }
 
 aside p {
@@ -88,9 +85,11 @@ aside p {
 }
 
 aside img {
-	justify-content: center;
-	align-items: center;
-    	width: 80%;
+	width: 45%;
+}
+
+.schedule {
+	margin: auto;
 }
 
 section article h2 {

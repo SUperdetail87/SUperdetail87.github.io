@@ -44,3 +44,6 @@ table.schedule caption {
 table.schedule td, table.schedule tr {
 	text-align: center;
 }
+#SCHEDULE {
+	overflow-x: auto;
+}

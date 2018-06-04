@@ -22,7 +22,7 @@ table.schedule thead {
 }
 
 table.schedule thead tr {
-	height: 22px;
+	height: auto;
 }
 
 table.schedule col.firstcol {
@@ -35,7 +35,7 @@ table.schedule col.daycols {
 }
 
 table.schedule td {
-	padding: 10px;
+	padding: auto;
 }
 
 table.schedule caption {

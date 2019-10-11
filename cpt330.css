@@ -71,10 +71,11 @@ header h2 {
 aside {
 	display: block;
 	text-align: center;
+	background-image: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
 	padding: 30px 10px 10px 10px;
 	border-style: inset;
 	margin: 0px 0px 0px 0px;
-	background-image: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+	
 }
 
 aside p {

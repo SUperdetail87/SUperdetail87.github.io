@@ -101,6 +101,11 @@ section article h2 {
 	text-indent: 1em;
 }
 
+section article p {
+	text align: justify;
+	margin left: 30pt;
+}
+
 article ul {
 	list-style-image: url(custombullet2.jpg);
 }

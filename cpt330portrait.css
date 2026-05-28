@@ -1,56 +1,65 @@
 /*
-Mobile portrait format 
-CSS page
+Mobile portrait format - Professional Portfolio
+Updated for cybersecurity resume content
 */
 
-
-#sitefeedback, #visitorinfo, #REQ, #NAV, #VIDEO, #SCHEDULE, #PISA  {
-	display: none;
+#NAV, #VIDEO, .schedule, .survey, #favemeals {
+    display: none;
 }
 
 header h2 {
-	text-align: center;
-	text-decoration: none;
-	font-size: 30pt;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20pt;
 }
 
-
 aside img {
-	display: block;
+    display: block;
     margin: auto;
-    width: 80%;
-	padding: 15px;
-	background-color: rgb(255,69,0);
-	border-radius: 20%;
+    width: 60%;
+    padding: 10px;
+    background-color: #1a5f7a;
+    border-radius: 20%;
 }
 
 aside p {
-	text-align: center;
-	font-size: 16pt;
+    text-align: center;
+    font-size: 12pt;
 }
 
 article h2 {
-	text-align: center;
-	font-size: 24pt;
+    text-align: center;
+    font-size: 18pt;
 }
 
-#favemeals a img {
-	display: block;
-	margin: auto;
-    width: 100%;
+.clearance-bar {
+    text-align: center;
 }
 
-#favemeals h3 {
-	text-align: center;
-	font-size: 16pt;
-	font-weight: bold;
+.clearance-badge {
+    font-size: 0.65rem;
+    padding: 3px 6px;
+}
+
+.competency-list li {
+    font-size: 0.65rem;
+}
+
+.job-title {
+    font-size: 0.95rem;
+}
+
+.job-company {
+    font-size: 0.85rem;
 }
 
 footer {
-	text-align: center;
-	font-weight: bold;
-	padding-top: 5px;
-	background-color: rgb(113,198,113);
-	width: 100%;
-	margin: auto;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 5px;
+    background-color: #1a3a4a;
+    width: 100%;
+    margin: auto;
+    color: #ffd700;
+    font-size: 0.8rem;
 }

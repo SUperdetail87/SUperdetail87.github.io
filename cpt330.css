@@ -1,174 +1,271 @@
-﻿/*
-Website main style page
-CSS page
+/*
+Professional Portfolio Style - Dukerlin Cherestal ISSM
+Updated for cybersecurity resume content
 */
 
-
 body {
-	background-color: cyan;
-	font-family: Verdana, Geneva, sans-serif;
-	width: 100%;
-} 
-
-.capsule {
-	max-width: 75%;
-	margin: auto;
-	background-color: white;
+    background-color: #1a3a4a;
+    font-family: 'Segoe UI', Verdana, Geneva, sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
+.capsule {
+    max-width: 75%;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* Navigation */
 nav ul {
-	line-height: 2.5em;
-	list-style-type: none;
-	padding-left: 0px;
-	text-indent: 10px;
-	width: 100%;
-	margin: auto;
+    line-height: 2.5em;
+    list-style-type: none;
+    padding-left: 0px;
+    text-indent: 10px;
+    width: 100%;
+    margin: auto;
 }
 
 .fixer {
-	max-width: 1000px;
-	margin: auto;
+    max-width: 1000px;
+    margin: auto;
 }
 
 nav a {
-	color: rgb(0,186,255);
-	text-decoration: none;
-	width: 32%;
-	text-align: center;
-	margin: 2px 2px 2px 2px;
-	float: left;
-	border-radius: 8px 8px 8px 8px;
-	background-color: rgb(255,69,0);
+    color: white;
+    text-decoration: none;
+    width: 23%;
+    text-align: center;
+    margin: 2px;
+    float: left;
+    border-radius: 8px;
+    background-color: #1a5f7a;
+    font-weight: bold;
+    transition: all 0.3s ease;
 }
 
 nav a:hover {
-	background-color: rgb(192,192,192); 
-	color: rgb(255,69,0);  
-
+    background-color: #0d3b4f;
+    color: #ffd700;
 }
 
+/* Header */
 header hgroup {
-	text-align: center;	
+    text-align: center;
 }
 
-header h1 { 
-	padding: 30px 10px 0px 5px;
+header h1 {
+    padding: 30px 10px 0px 5px;
 }
 
 header h1 img {
-	width: 100%;
-	height: auto;
-	margin: 10px 0px 0px 2.5px;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #1a5f7a;
 }
 
 header h2 {
-	background-color: rgb(192,192,192); 
-	font-size: 3em;
-	text-indent: 5px;
-	font-family: Courier-New;
+    background-color: #2c7a4d;
+    font-size: 2.2em;
+    text-indent: 5px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: white;
+    padding: 10px;
 }
 
+.subtitle {
+    font-size: 0.6em;
+    display: block;
+    color: #ffd700;
+}
+
+/* Sidebar */
 aside {
-	display: block;
-	text-align: center;
-	background-image: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
-	padding: 30px 10px 10px 10px;
-	border-style: inset;
-	margin: 0px 0px 0px 0px;
-	
-}
-
-aside p {
-	font-size: 14px;
-	font-style: italic;
-	text-align: center;
-	color: rgb(255,69,0); 
+    display: block;
+    text-align: center;
+    background: linear-gradient(135deg, #1a5f7a, #0d3b4f);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+    color: white;
 }
 
 aside img {
-	width: 45%;
+    width: 45%;
+    max-width: 150px;
+    border-radius: 10px;
 }
 
-.schedule {
-	margin: auto;
+aside p {
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 10px;
 }
 
+/* Clearance Badges */
+.clearance-bar {
+    text-align: center;
+    margin: 15px 0;
+    padding: 10px;
+    background: #eef2f5;
+    border-radius: 10px;
+}
+
+.clearance-badge {
+    display: inline-block;
+    background: #1a5f7a;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    margin: 3px;
+}
+
+/* Headings */
 section article h2 {
-	background-color: rgb(255,69,0); 
-	color: rgba(255,255,255,0.7);
-	font-weight: normal;
-	letter-spacing: 0.7em;
-	text-indent: 1em;
+    background-color: #1a5f7a;
+    color: white;
+    font-weight: normal;
+    letter-spacing: 0.05em;
+    text-indent: 1em;
+    padding: 8px;
+    border-radius: 5px;
 }
 
 section article p {
-	text-align: justify;
-	margin-left: 30pt;
+    text-align: justify;
+    margin-left: 20pt;
+    margin-right: 10pt;
+    line-height: 1.5;
 }
 
+/* Competency List */
+.competency-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.competency-list li {
+    background: #e9ecef;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    display: inline-block;
+}
+
+/* Job Entries */
+.job-entry {
+    margin-bottom: 25px;
+    border-bottom: 2px solid #1a5f7a;
+    padding-bottom: 15px;
+}
+
+.job-title {
+    font-weight: bold;
+    color: #1a5f7a;
+    font-size: 1.1rem;
+}
+
+.job-company {
+    font-weight: 600;
+    color: #2c7a4d;
+    margin: 5px 0;
+}
+
+.job-entry ul {
+    margin-left: 20px;
+}
+
+.job-entry li {
+    margin: 8px 0;
+    line-height: 1.4;
+}
+
+/* Lists */
 article ul {
-	list-style-image: url(custombullet2.jpg);
+    margin-left: 30pt;
+    line-height: 1.5;
 }
 
+article li {
+    margin: 5px 0;
+}
+
+/* Contact Box */
+.contact-box {
+    background: #eef2f5;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contact-box a {
+    color: #1a5f7a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-box a:hover {
+    text-decoration: underline;
+}
+
+.contact-note {
+    font-size: 0.85rem;
+    color: #666;
+    margin-top: 10px;
+}
+
+/* Footer */
 footer address {
-	background-color: rgb(192,192,192);
-	color: rgb(255,69,0);
-	font-weight: normal;
-	font-variant: small-caps;
-	font-size: 0.9em;
-	line-height: 3em;
-	font-family: Palatino-Linotype, Book-Antiqua, Palatino, serif;
-	text-align: center;
+    background-color: #1a3a4a;
+    color: #ffd700;
+    font-weight: normal;
+    font-variant: small-caps;
+    font-size: 0.9em;
+    line-height: 3em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 section {
-	clear: left;
-	
+    clear: left;
 }
-
-
-
 
 article {
-	clear: left;
-	width: 75%;
+    clear: left;
+    width: 100%;
 }
 
-#favemeals img {
-	width: 200px;
-}
-
-footer {
-	border-top: double;
-	display: block;
-	clear: both;
-}
-
-video {
-	height: 500px;
-	width: 300px;
-	padding: 2% 20% 2% 20%;
-}
-
-.submit {
-	clear: both;
-	text-align: center;
-}
-
-#reset {
-	clear: both;
-	margin: auto;
-	text-align: center;
-}
-
-#submit {
-	clear: both;
-	margin: auto;
-	text-align: center;
-}
-
-#newsletter {
-	clear: both;
-	margin: auto;
-	text-align: center;
+/* Responsive */
+@media (max-width: 768px) {
+    .capsule {
+        max-width: 95%;
+    }
+    
+    nav a {
+        width: 48%;
+        font-size: 0.9rem;
+    }
+    
+    section article p {
+        margin-left: 10pt;
+        margin-right: 10pt;
+    }
 }

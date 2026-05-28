@@ -1,18 +1,69 @@
 /*
-Print format 
-CSS page
+Print format - Professional Portfolio
+Optimized for printing resume
 */
 
-#PISA, nav, #SCHEDULE, #VIDEO, .survey, #REQ {
-	display: none;
+#PISA, nav, .survey, #REQ, .clearance-bar, aside, video, .schedule {
+    display: none;
 }
 
-body header h2 {
-	text-align: center;
-	font-size: 24pt;
-	text-decoration: underline;
+body {
+    font-family: Times, Georgia, serif;
+    background: white;
+    color: black;
 }
 
-.meals, .websites, .me, footer {
-	text-align: center;
+.capsule {
+    max-width: 100%;
+    margin: 0;
+    background: white;
+}
+
+header h2 {
+    text-align: center;
+    font-size: 24pt;
+    text-decoration: underline;
+    color: black;
+}
+
+.subtitle {
+    font-size: 14pt;
+    display: block;
+    color: #333;
+}
+
+article h2 {
+    background: none;
+    color: black;
+    border-bottom: 2px solid black;
+    letter-spacing: normal;
+    text-indent: 0;
+}
+
+.job-entry {
+    border-bottom: 1px solid #ccc;
+}
+
+.job-title {
+    color: black;
+}
+
+.contact-box {
+    background: none;
+    border: 1px solid #ccc;
+}
+
+footer address {
+    background: none;
+    color: black;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }

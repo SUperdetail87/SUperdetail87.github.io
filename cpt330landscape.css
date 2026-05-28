@@ -1,81 +1,70 @@
 /*
-Mobile landscape format 
-CSS page
+Mobile landscape format - Professional Portfolio
+Updated for cybersecurity resume content
 */
 
 header h1 img {
-	width: 100%;
-	height: 90%;
-	border-radius: 8%;
+    width: 100%;
+    max-width: 120px;
+    border-radius: 50%;
 }
 
 header h2 {
-	text-align: center;
-	text-decoration: none;
-	font-size: 30pt;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24pt;
 }
 
 body nav {
-	background-color: rgb(255,69,0);
-	background-position: center;
-	width: 40%;
-	height: 8%;
-	border-radius: 15%;
-	padding: 4% 4% 6% 2%;
-	text-decoration: none;
-	font-size: 120%;
+    background-color: #1a5f7a;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
 }
 
-aside img {
-	display: block;
-    margin: auto;
-    width: 80%;
-	padding: 15px;
-	border-radius: 60%;
+nav a {
+    display: inline-block;
+    width: 22%;
+    font-size: 12px;
 }
 
-aside p {
-	text-align: center;
-	font-size: 14pt;
+.clearance-bar {
+    margin: 10px 0;
 }
 
-article h2 {
-	text-align: center;
-	font-size: 20pt;
+.clearance-badge {
+    font-size: 0.7rem;
+    padding: 3px 8px;
 }
 
-table {
-	display: none;
+.competency-list li {
+    font-size: 0.7rem;
 }
 
-video {
-	display: block;
-    margin: auto;
-    width: 80%;
-	padding: 15px;
+.job-title {
+    font-size: 1rem;
 }
 
-#favemeals a {
-	display: block;
-    margin: auto;
-    width: 70%;
+article ul {
+    margin-left: 15px;
 }
 
-#favemeals h3 {
-	text-align: center;
-	font-size: 14pt;
-	font-weight: bold;
-}
-
-#sitefeedback, #visitorinfo, #REQ {
-	display: none;
+.contact-box {
+    padding: 10px;
+    font-size: 0.9rem;
 }
 
 footer {
-	text-align: center;
-	font-weight: bold;
-	padding-top: 5px;
-	background-color: rgb(113,198,113);
-	width: 100%;
-	margin: auto;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 5px;
+    background-color: #1a3a4a;
+    width: 100%;
+    margin: auto;
+    color: #ffd700;
+}
+
+/* Hide old elements that don't exist */
+table, video, .survey, .schedule, #favemeals {
+    display: none;
 }

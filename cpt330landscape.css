@@ -1,18 +1,18 @@
 /*
 Mobile landscape format - Professional Portfolio
-Updated for cybersecurity resume content
+Updated for categorized skills section - No header image
 */
-
-header h1 img {
-    width: 100%;
-    max-width: 120px;
-    border-radius: 50%;
-}
 
 header h2 {
     text-align: center;
     text-decoration: none;
-    font-size: 24pt;
+    font-size: 18pt;
+}
+
+/* Sidebar random image */
+aside img {
+    width: 35%;
+    max-width: 100px;
 }
 
 body nav {
@@ -25,7 +25,7 @@ body nav {
 nav a {
     display: inline-block;
     width: 22%;
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .clearance-bar {
@@ -33,36 +33,41 @@ nav a {
 }
 
 .clearance-badge {
-    font-size: 0.7rem;
+    font-size: 0.65rem;
     padding: 3px 8px;
 }
 
-.competency-list li {
-    font-size: 0.7rem;
+/* Skills section mobile */
+.skills-container {
+    flex-direction: column;
+    gap: 12px;
 }
 
-.job-title {
+.skill-category {
+    margin: 0;
+}
+
+.skill-category-title {
     font-size: 1rem;
 }
 
-article ul {
-    margin-left: 15px;
+.skill-list li {
+    font-size: 0.75rem;
+    padding: 4px 0 4px 18px;
 }
 
-.contact-box {
-    padding: 10px;
-    font-size: 0.9rem;
+.job-title {
+    font-size: 0.95rem;
 }
 
-/* Contact section mobile adjustments */
 .contact-links {
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
 }
 
 .contact-item {
-    width: 80%;
+    width: 90%;
     justify-content: center;
     padding: 6px 12px;
 }
@@ -79,9 +84,5 @@ footer {
     width: 100%;
     margin: auto;
     color: #ffd700;
-}
-
-/* Hide old elements that don't exist */
-table, video, .survey, .schedule, #favemeals {
-    display: none;
+    font-size: 0.75rem;
 }

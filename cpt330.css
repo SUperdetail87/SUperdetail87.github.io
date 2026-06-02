@@ -2,6 +2,7 @@
 Professional Portfolio Style - Dukerlin Cherestal ISSM
 Updated for categorized skills section, projects (no copy protection)
 Theme: Dark Blue (#1a5f7a) consistent throughout
+Images: Doubled in size
 */
 
 body {
@@ -85,7 +86,7 @@ header h2 {
     letter-spacing: 0.5px;
 }
 
-/* Sidebar (Random Image) */
+/* Sidebar (Random Image) - DOUBLED SIZE */
 aside {
     display: block;
     text-align: center;
@@ -97,8 +98,8 @@ aside {
 }
 
 aside img {
-    width: 45%;
-    max-width: 150px;
+    width: 60%;
+    max-width: 300px;
     border-radius: 10px;
 }
 

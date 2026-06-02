@@ -1,6 +1,6 @@
 /*
 Mobile landscape format - Professional Portfolio
-Updated for categorized skills section and projects
+Images: Doubled in size
 */
 
 header h2 {
@@ -9,10 +9,11 @@ header h2 {
     font-size: 18pt;
 }
 
-/* Sidebar random image */
+/* Sidebar random image - DOUBLED SIZE for landscape */
 aside img {
-    width: 35%;
-    max-width: 100px;
+    width: 50%;
+    max-width: 200px;
+    border-radius: 10px;
 }
 
 body nav {

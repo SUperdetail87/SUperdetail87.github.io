@@ -39,7 +39,8 @@
                         </h1>
                         <h2>
                             Dukerlin Cherestal<br>
-                            <span class="subtitle">Information System Security Manager (ISSM) | RMF Lifecycle Lead</span>
+                            <span class="subtitle">Cleared Information System Security Manager (ISSM)</span>
+                            <span class="subtitle-tags">RMF • NIST 800-53 • eMASS • ATO Sustainment • Cyber Risk Management</span>
                         </h2>
                     </div>
                 </hgroup>
@@ -173,10 +174,10 @@
                 </div>
             </article>
 
-            <!-- Projects Section - Read-Only Protected -->
+            <!-- Projects Section - No Copy Protection -->
             <article>
                 <h2 id="projects">📌 Featured Projects</h2>
-                <p class="section-intro">Select case studies demonstrating cybersecurity, risk management, and operational improvement capabilities. <em>(Content is read-only)</em></p>
+                <p class="section-intro">Select case studies demonstrating cybersecurity, risk management, and operational improvement capabilities.</p>
                 
                 <div class="projects-container">
                     
@@ -362,7 +363,7 @@
                         </div>
                         <div class="contact-item scheduling-btn">
                             <span class="contact-icon">📅</span>
-                            <a href="#" id="googleCalendarBtn">Schedule a Call (Google Calendar)</a>
+                            <a href="#" id="googleCalendarBtn">Schedule a Call</a>
                         </div>
                     </div>
                     <p class="contact-note">Active DoD Secret Clearance | 4.0 GPA Graduate | Available for ISSM, RMF, or cybersecurity roles in defense/aerospace</p>
@@ -482,28 +483,6 @@
         modal.style.display = 'none';
         alert('Thank you! I will review your request and send a calendar invitation within 24 hours.');
     }
-    
-    // Disable right-click on project elements
-    document.querySelectorAll('.project-case').forEach(el => {
-        el.addEventListener('contextmenu', (e) => {
-            e.preventDefault();
-            return false;
-        });
-    });
-    
-    // Disable keyboard copy shortcuts on project area
-    document.querySelectorAll('.project-case').forEach(el => {
-        el.addEventListener('copy', (e) => {
-            e.preventDefault();
-            alert('Content is protected. Please contact Dukerlin for authorization.');
-            return false;
-        });
-        
-        el.addEventListener('cut', (e) => {
-            e.preventDefault();
-            return false;
-        });
-    });
 </script>
 
 </body>

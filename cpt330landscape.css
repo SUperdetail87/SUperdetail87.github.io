@@ -1,6 +1,6 @@
 /*
 Mobile landscape format - Professional Portfolio
-Updated for categorized skills section - No header image
+Updated for categorized skills section and projects
 */
 
 header h2 {
@@ -24,8 +24,9 @@ body nav {
 
 nav a {
     display: inline-block;
-    width: 22%;
-    font-size: 11px;
+    width: 18%;
+    font-size: 10px;
+    padding: 4px;
 }
 
 .clearance-bar {
@@ -54,6 +55,37 @@ nav a {
 .skill-list li {
     font-size: 0.75rem;
     padding: 4px 0 4px 18px;
+}
+
+/* Projects section mobile */
+.projects-container {
+    gap: 15px;
+}
+
+.project-case {
+    padding: 12px;
+}
+
+.project-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+}
+
+.project-title {
+    font-size: 1rem;
+}
+
+.project-meta {
+    font-size: 0.7rem;
+}
+
+.project-content p {
+    font-size: 0.8rem;
+}
+
+.project-keyword {
+    font-size: 0.65rem;
 }
 
 .job-title {

@@ -1,9 +1,9 @@
 /*
 Print format - Professional Portfolio
-Updated for clean printing - No header image
+Updated for clean printing - projects hidden (protected)
 */
 
-#PISA, nav, .clearance-bar, .modal, .scheduling-btn {
+#PISA, nav, .clearance-bar, .modal, .scheduling-btn, .projects-container {
     display: none;
 }
 

@@ -1,6 +1,6 @@
 /*
 Professional Portfolio Style - Dukerlin Cherestal ISSM
-Updated for categorized skills section, projects, and read-only protection
+Updated for categorized skills section, projects (no copy protection)
 Theme: Dark Blue (#1a5f7a) consistent throughout
 */
 
@@ -71,9 +71,18 @@ header h2 {
 }
 
 .subtitle {
-    font-size: 0.6em;
+    font-size: 0.5em;
     display: block;
     color: #ffd700;
+    margin-top: 5px;
+}
+
+.subtitle-tags {
+    font-size: 0.45em;
+    display: block;
+    color: #e0e4e8;
+    margin-top: 8px;
+    letter-spacing: 0.5px;
 }
 
 /* Sidebar (Random Image) */
@@ -118,7 +127,7 @@ aside p {
     margin: 3px;
 }
 
-/* Headings - NOW DARK BLUE consistent with theme */
+/* Headings - Dark Blue consistent with theme */
 section article h2 {
     background-color: #1a5f7a;
     color: white;
@@ -197,28 +206,8 @@ section article p {
 }
 
 /* ============================================
-   PROJECTS SECTION - READ-ONLY PROTECTION
+   PROJECTS SECTION - NO COPY PROTECTION
    ============================================ */
-
-/* Prevent text selection on projects */
-.project-case {
-    user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    position: relative;
-}
-
-/* Visual indicator that content is protected */
-.project-case::after {
-    content: "📄";
-    position: absolute;
-    bottom: 10px;
-    right: 15px;
-    font-size: 0.7rem;
-    opacity: 0.3;
-    pointer-events: none;
-}
 
 /* Project Card Styling */
 .projects-container {
@@ -295,13 +284,6 @@ section article p {
     font-size: 0.7rem;
     color: #1a5f7a;
     font-family: monospace;
-}
-
-/* Disable image downloads if you add images */
-.project-case img {
-    pointer-events: none;
-    -webkit-user-drag: none;
-    user-drag: none;
 }
 
 /* Job Entries */
@@ -612,5 +594,9 @@ article {
         flex-direction: column;
         align-items: flex-start;
         gap: 8px;
+    }
+    
+    .subtitle-tags {
+        font-size: 0.4em;
     }
 }

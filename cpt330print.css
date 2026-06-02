@@ -1,9 +1,9 @@
 /*
 Print format - Professional Portfolio
-Optimized for printing resume
+Updated for clean printing - No header image
 */
 
-#PISA, nav, .survey, #REQ, .clearance-bar, aside, video, .schedule {
+#PISA, nav, .clearance-bar, .modal, .scheduling-btn {
     display: none;
 }
 
@@ -19,17 +19,51 @@ body {
     background: white;
 }
 
+/* Hide header image area */
+header h1 {
+    display: none;
+}
+
 header h2 {
     text-align: center;
-    font-size: 24pt;
+    font-size: 20pt;
     text-decoration: underline;
     color: black;
+    background: none;
 }
 
 .subtitle {
-    font-size: 14pt;
+    font-size: 12pt;
     display: block;
     color: #333;
+}
+
+/* Sidebar (random image) - hide in print */
+aside {
+    display: none;
+}
+
+/* Skills section print */
+.skills-container {
+    display: block;
+    margin: 10px 0;
+}
+
+.skill-category {
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    padding: 8px;
+    break-inside: avoid;
+}
+
+.skill-category-title {
+    color: black;
+    font-size: 11pt;
+    border-bottom: 1px solid black;
+}
+
+.skill-list li {
+    font-size: 9pt;
 }
 
 article h2 {
@@ -42,6 +76,7 @@ article h2 {
 
 .job-entry {
     border-bottom: 1px solid #ccc;
+    break-inside: avoid;
 }
 
 .job-title {
@@ -51,19 +86,26 @@ article h2 {
 .contact-box {
     background: none;
     border: 1px solid #ccc;
+    break-inside: avoid;
+}
+
+.contact-links {
+    display: block;
+}
+
+.contact-item {
+    background: none;
+    box-shadow: none;
+    padding: 2px 0;
 }
 
 footer address {
     background: none;
     color: black;
+    border-top: 1px solid black;
 }
 
 footer a {
     color: black;
     text-decoration: none;
-}
-
-a {
-    text-decoration: none;
-    color: black;
 }

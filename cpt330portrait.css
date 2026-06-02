@@ -1,35 +1,23 @@
 /*
 Mobile portrait format - Professional Portfolio
-Updated for cybersecurity resume content
+Updated for categorized skills section - No header image
 */
-
-#NAV, #VIDEO, .schedule, .survey, #favemeals {
-    display: none;
-}
 
 header h2 {
     text-align: center;
     text-decoration: none;
-    font-size: 20pt;
+    font-size: 16pt;
 }
 
+/* Sidebar random image */
 aside img {
-    display: block;
-    margin: auto;
-    width: 60%;
-    padding: 10px;
-    background-color: #1a5f7a;
-    border-radius: 20%;
+    width: 50%;
+    max-width: 80px;
 }
 
-aside p {
-    text-align: center;
-    font-size: 12pt;
-}
-
-article h2 {
-    text-align: center;
-    font-size: 18pt;
+/* Hide navigation on very small screens */
+#NAV {
+    display: none;
 }
 
 .clearance-bar {
@@ -37,23 +25,45 @@ article h2 {
 }
 
 .clearance-badge {
-    font-size: 0.65rem;
+    font-size: 0.6rem;
     padding: 3px 6px;
 }
 
-.competency-list li {
-    font-size: 0.65rem;
+/* Skills section mobile portrait */
+.skills-container {
+    flex-direction: column;
+    gap: 10px;
+}
+
+.skill-category {
+    padding: 10px;
+}
+
+.skill-category-title {
+    font-size: 0.9rem;
+}
+
+.skill-list li {
+    font-size: 0.7rem;
+    padding: 3px 0 3px 16px;
+}
+
+.skill-list li::before {
+    font-size: 0.7rem;
 }
 
 .job-title {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
 }
 
 .job-company {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
 }
 
-/* Contact section mobile portrait */
+.job-entry li {
+    font-size: 0.75rem;
+}
+
 .contact-links {
     flex-direction: column;
     align-items: center;
@@ -63,16 +73,28 @@ article h2 {
 .contact-item {
     width: 95%;
     justify-content: center;
-    padding: 6px 10px;
+    padding: 5px 10px;
 }
 
 .contact-item a {
-    font-size: 0.8rem;
-    word-break: break-all;
+    font-size: 0.75rem;
 }
 
 .contact-icon {
-    font-size: 1rem;
+    font-size: 0.9rem;
+}
+
+.modal-content {
+    margin: 15% auto;
+    width: 95%;
+}
+
+.modal-header h3 {
+    font-size: 1.1rem;
+}
+
+.modal-body {
+    padding: 15px;
 }
 
 footer {
@@ -83,5 +105,5 @@ footer {
     width: 100%;
     margin: auto;
     color: #ffd700;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }

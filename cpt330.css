@@ -1,6 +1,6 @@
 /*
 Professional Portfolio Style - Dukerlin Cherestal ISSM
-Updated for categorized skills section - No header image
+Updated for categorized skills section, projects, and read-only protection
 */
 
 body {
@@ -22,7 +22,7 @@ body {
 nav ul {
     line-height: 2.5em;
     list-style-type: none;
-    padding-left: 0px;
+ padding-left: 0px;
     text-indent: 10px;
     width: 100%;
     margin: auto;
@@ -36,7 +36,7 @@ nav ul {
 nav a {
     color: white;
     text-decoration: none;
-    width: 18%;
+    width: 15%;
     text-align: center;
     margin: 2px;
     float: left;
@@ -135,6 +135,12 @@ section article p {
     line-height: 1.5;
 }
 
+.section-intro {
+    margin: 10px 0 20px 0;
+    font-style: italic;
+    color: #555;
+}
+
 /* ============================================
    CATEGORIZED SKILLS SECTION - SENIOR LEVEL
    ============================================ */
@@ -187,6 +193,114 @@ section article p {
     left: 0;
     color: #1a5f7a;
     font-size: 0.8rem;
+}
+
+/* ============================================
+   PROJECTS SECTION - READ-ONLY PROTECTION
+   ============================================ */
+
+/* Prevent text selection on projects */
+.project-case {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    position: relative;
+}
+
+/* Visual indicator that content is protected */
+.project-case::after {
+    content: "📄";
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    font-size: 0.7rem;
+    opacity: 0.3;
+    pointer-events: none;
+}
+
+/* Project Card Styling */
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 20px 0;
+}
+
+.project-case {
+    background: #ffffff;
+    border: 1px solid #e0e4e8;
+    border-radius: 12px;
+    padding: 20px;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.project-case:hover {
+    border-color: #1a5f7a;
+    box-shadow: 0 4px 12px rgba(26,95,122,0.1);
+}
+
+.project-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #1a5f7a;
+    padding-bottom: 8px;
+}
+
+.project-title {
+    color: #1a5f7a;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.project-tag {
+    background: #eef2f5;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #1a5f7a;
+}
+
+.project-meta {
+    font-size: 0.8rem;
+    color: #666;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 1px dashed #e0e4e8;
+}
+
+.project-content p {
+    margin: 10px 0;
+    line-height: 1.5;
+    font-size: 0.9rem;
+}
+
+.project-footer {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.project-keyword {
+    background: #f0f4f8;
+    padding: 3px 10px;
+    border-radius: 15px;
+    font-size: 0.7rem;
+    color: #1a5f7a;
+    font-family: monospace;
+}
+
+/* Disable image downloads if you add images */
+.project-case img {
+    pointer-events: none;
+    -webkit-user-drag: none;
+    user-drag: none;
 }
 
 /* Job Entries */
@@ -464,8 +578,8 @@ article {
     }
     
     nav a {
-        width: 48%;
-        font-size: 0.9rem;
+        width: 30%;
+        font-size: 0.8rem;
     }
     
     section article p {
@@ -491,5 +605,11 @@ article {
     .contact-item {
         width: 90%;
         justify-content: center;
+    }
+    
+    .project-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
     }
 }

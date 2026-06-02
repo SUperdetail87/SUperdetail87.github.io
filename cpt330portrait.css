@@ -1,6 +1,6 @@
 /*
 Mobile portrait format - Professional Portfolio
-Updated for categorized skills section and projects
+Images: Doubled in size
 */
 
 header h2 {
@@ -9,10 +9,11 @@ header h2 {
     font-size: 16pt;
 }
 
-/* Sidebar random image */
+/* Sidebar random image - DOUBLED SIZE for portrait */
 aside img {
-    width: 50%;
-    max-width: 80px;
+    width: 70%;
+    max-width: 160px;
+    border-radius: 10px;
 }
 
 /* Hide navigation on very small screens */
